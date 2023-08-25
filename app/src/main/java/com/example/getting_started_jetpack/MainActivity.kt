@@ -59,11 +59,13 @@ fun Home(){
        Button({
            login.startActivity(Intent(login, LoginActivity::class.java))
 
+
        }
 
 
        ) {
            Text(text = "LOGIN")
+
 
 
        }
